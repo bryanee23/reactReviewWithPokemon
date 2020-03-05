@@ -1,23 +1,23 @@
 const pokemon = [
   {
     id: 12,
-    name: 'butterfree',
+    name: 'bulbasaur',
     sprites: {
-      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
     }
   },
   {
     id: 12,
-    name: 'butterfree',
+    name: 'ivysaur',
     sprites: {
-      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
     }
   },
   {
     id: 12,
-    name: 'butterfree',
+    name: 'venasaur',
     sprites: {
-      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+      front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
     }
   }
 ]
