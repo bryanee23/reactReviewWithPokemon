@@ -1,15 +1,15 @@
 import React from 'react';
 
+const PokemonItem = ({ pokemon }) => {
 
-const PokemonItem = ()=>{
-  let img = sprites.front_default
-<div className="pokemonItem">
-    <div>Name: {}</div>
-    <div>Id: {}</div>
-    <img src={} alt="pokemon image"/>
-  </div>
+  let img = pokemon.sprites.front_default;
+  return (
+    <div>
+      <div>Name: {pokemon.name}</div>
+      <div>Id: {pokemon.id}</div>
+      <img src={img} alt="pokemon image" />
+    </div>
+  )
 }
-//TODO
-/*
 
-*/
+export default PokemonItem;
